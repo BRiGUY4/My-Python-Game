@@ -60,7 +60,7 @@ while lives > 0:
             lives = lives - 1
             score = score - 100
         
-
+ 
     elif weapon == 5:
         if x < random.randrange(10):
             print ("You killed the rabbit but lost a life!")
